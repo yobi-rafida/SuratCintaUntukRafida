@@ -27,7 +27,7 @@ document.getElementById('verificationName').addEventListener('submit', function(
     const errorMessage = document.getElementById('error-message');
 
     // Validasi nama
-    const validNames = ['nabila', 'Nabila', 'NABILA DEASY RAHMADHANY'];
+    const validNames = ['rafida', 'Rafida', 'RAFIDA LAILI PUJIANDARI'];
 
     // Jika nama tidak valid, tampilkan pesan error
     if (!validNames.includes(nameInput)) {
@@ -51,7 +51,7 @@ document.getElementById('verification').addEventListener('submit', function(e) {
     // Jika jawabannya bukan 'yes', tampilkan pesan peringatan
     if (isPartner !== 'yes') {
         Swal.fire({
-            title: 'Bukan pacar Faisal!',
+            title: 'Bukan cewek kesayangan Yobi!',
             text: 'Coba lagi dari awal.',
             icon: 'warning',
         }).then(() => {
